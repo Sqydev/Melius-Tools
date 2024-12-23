@@ -1,0 +1,49 @@
+{
+  "item.meliustools.oak_sword": "Oak Sword",
+  "item.meliustools.oak_pickaxe": "Oak Pickaxe",
+  "item.meliustools.oak_axe": "Oak Axe",
+  "item.meliustools.oak_shovel": "Oak Shovel",
+  "item.meliustools.oak_hoe": "Oak Hoe",
+
+  "item.meliustools.doak_sword": "Dark Oak Sword",
+  "item.meliustools.doak_pickaxe": "Dark Oak Pickaxe",
+  "item.meliustools.doak_axe": "Dark Oak Axe",
+  "item.meliustools.doak_shovel": "Dark Oak Shovel",
+  "item.meliustools.doak_hoe": "Dark Oak Hoe",
+
+  "item.meliustools.spruce_sword": "Spruce Sword",
+  "item.meliustools.spruce_pickaxe": "Spruce Pickaxe",
+  "item.meliustools.spruce_axe": "Spruce Axe",
+  "item.meliustools.spruce_shovel": "Spruce Shovel",
+  "item.meliustools.spruce_hoe": "Spruce Hoe",
+
+  "item.meliustools.acacia_sword": "Acacia Sword",
+  "item.meliustools.acacia_pickaxe": "Acacia Pickaxe",
+  "item.meliustools.acacia_axe": "Acacia Axe",
+  "item.meliustools.acacia_shovel": "Acacia Shovel",
+  "item.meliustools.acacia_hoe": "Acacia Hoe",
+
+  "item.meliustools.birch_sword": "Birch Sword",
+  "item.meliustools.birch_pickaxe": "Birch Pickaxe",
+  "item.meliustools.birch_axe": "Birch Axe",
+  "item.meliustools.birch_shovel": "Birch Shovel",
+  "item.meliustools.birch_hoe": "Birch Hoe",
+
+  "item.meliustools.cherry_sword": "Cherry Sword",
+  "item.meliustools.cherry_pickaxe": "Cherry Pickaxe",
+  "item.meliustools.cherry_axe": "Cherry Axe",
+  "item.meliustools.cherry_shovel": "Cherry Shovel",
+  "item.meliustools.cherry_hoe": "Cherry Hoe",
+
+  "item.meliustools.jungle_sword": "Jungle Sword",
+  "item.meliustools.jungle_pickaxe": "Jungle Pickaxe",
+  "item.meliustools.jungle_axe": "Jungle Axe",
+  "item.meliustools.jungle_shovel": "Jungle Shovel",
+  "item.meliustools.jungle_hoe": "Jungle Hoe",
+
+  "item.meliustools.mangrove_sword": "Mangrove Sword",
+  "item.meliustools.mangrove_pickaxe": "Mangrove Pickaxe",
+  "item.meliustools.mangrove_axe": "Mangrove Axe",
+  "item.meliustools.mangrove_shovel": "Mangrove Shovel",
+  "item.meliustools.mangrove_hoe": "Mangrove Hoe"
+}

@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "meliustools",
+	"version": "${version}",
+	"name": "Melius Tools",
+	"description": "This mod adds more tools variants",
+	"authors": [
+		"_Sqyd_"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/melius-tools",
+		"discord": "_sqyd",
+		"discord server": "https://discord.gg/wQ8JVX5HJ4",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC-BY-4.0",
+	"icon": "assets/meliustools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sqyd.meliustools.MeliusTools"
+		],
+		"client": [
+			"net.sqyd.meliustools.MeliusToolsClient"
+		]
+	},
+	"mixins": [
+		"meliustools.mixins.json",
+		{
+			"config": "meliustools.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
