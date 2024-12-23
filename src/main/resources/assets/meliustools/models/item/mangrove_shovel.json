@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "meliustools:item/bug_shovel"
+    "layer0": "meliustools:item/mangrove_shovel"
   }
 }
