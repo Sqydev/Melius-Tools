@@ -24,8 +24,6 @@ public enum ModToolsM implements ToolMaterial {
             () -> Ingredient.ofItems(Blocks.ACACIA_PLANKS)),
     DOak(0, 59, 2.0F, 0.0F, 15,
             () -> Ingredient.ofItems(Blocks.DARK_OAK_PLANKS)),
-    Azalea(0, 59, 2.0F, 0.0F, 15,
-            () -> Ingredient.ofItems(Blocks.AZALEA)),
     Mangrove(0, 59, 2.0F, 0.0F, 15,
             () -> Ingredient.ofItems(Blocks.MANGROVE_PLANKS)),
     Cherry(0, 59, 2.0F, 0.0F, 15,

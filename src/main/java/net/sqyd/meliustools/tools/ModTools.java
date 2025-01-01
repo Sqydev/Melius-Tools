@@ -2,14 +2,11 @@ package net.sqyd.meliustools.tools;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.MapColor;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.sqyd.meliustools.MeliusTools;
-import org.spongepowered.asm.mixin.Final;
 
 public class ModTools {
 
@@ -73,15 +70,15 @@ public class ModTools {
             new HoeItem(ModToolsM.Birch, 0, -3.0f, new FabricItemSettings()));
 
     public static final Item Azalea_Pickaxe = registerTools("azalea_pickaxe",
-            new PickaxeItem(ModToolsM.Azalea, 1, -2.8f, new FabricItemSettings()));
+            new PickaxeItem(ModToolsM.Oak, 1, -2.8f, new FabricItemSettings()));
     public static final Item Azalea_Axe = registerTools("azalea_axe",
-            new AxeItem(ModToolsM.Azalea, 6.0f, 3.2f, new FabricItemSettings()));
+            new AxeItem(ModToolsM.Oak, 6.0f, 3.2f, new FabricItemSettings()));
     public static final Item Azalea_Shovel = registerTools("azalea_shovel",
-            new ShovelItem(ModToolsM.Azalea, 1.5f, 3.0f, new FabricItemSettings()));
+            new ShovelItem(ModToolsM.Oak, 1.5f, 3.0f, new FabricItemSettings()));
     public static final Item Azalea_Sword = registerTools("azalea_sword",
-            new SwordItem(ModToolsM.Azalea, 3, -2.4f, new FabricItemSettings()));
+            new SwordItem(ModToolsM.Oak, 3, -2.4f, new FabricItemSettings()));
     public static final Item Azalea_Hoe = registerTools("azalea_hoe",
-            new HoeItem(ModToolsM.Azalea, 0, -3.0f, new FabricItemSettings()));
+            new HoeItem(ModToolsM.Oak, 0, -3.0f, new FabricItemSettings()));
 
     public static final Item Cherry_Pickaxe = registerTools("cherry_pickaxe",
             new PickaxeItem(ModToolsM.Cherry, 1, -2.8f, new FabricItemSettings()));
@@ -126,7 +123,7 @@ public class ModTools {
         return Registry.register(Registries.ITEM, new Identifier(MeliusTools.MOD_ID, name), item);
     }
 
-    public static void RedisterModTools() {
+    public static void registerModTools() {
         MeliusTools.LOGGER.info("Regging " + MeliusTools.MOD_ID + "s Tools");
     }
 
@@ -137,6 +134,7 @@ public class ModTools {
                     ModTools.Oak_Shovel, ModTools.Oak_Pickaxe, ModTools.Oak_Axe, ModTools.Oak_Hoe,
                     ModTools.Spruce_Shovel, ModTools.Spruce_Pickaxe, ModTools.Spruce_Axe, ModTools.Spruce_Hoe,
                     ModTools.Birch_Shovel, ModTools.Birch_Pickaxe, ModTools.Birch_Axe, ModTools.Birch_Hoe,
+                    ModTools.Azalea_Shovel, ModTools.Azalea_Pickaxe, ModTools.Azalea_Axe, ModTools.Azalea_Hoe,
                     ModTools.Jungle_Shovel, ModTools.Jungle_Pickaxe, ModTools.Jungle_Axe, ModTools.Jungle_Hoe,
                     ModTools.Acacia_Shovel, ModTools.Acacia_Pickaxe, ModTools.Acacia_Axe, ModTools.Acacia_Hoe,
                     ModTools.DOak_Shovel, ModTools.DOak_Pickaxe, ModTools.DOak_Axe, ModTools.DOak_Hoe,
@@ -150,6 +148,7 @@ public class ModTools {
                     ModTools.Oak_Sword,
                     ModTools.Spruce_Sword,
                     ModTools.Birch_Sword,
+                    ModTools.Azalea_Sword,
                     ModTools.Jungle_Sword,
                     ModTools.Acacia_Sword,
                     ModTools.DOak_Sword,

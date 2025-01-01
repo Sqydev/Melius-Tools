@@ -3,7 +3,7 @@
 	"package": "net.sqyd.meliustools.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"RarityChange"
 	],
 	"injectors": {
 		"defaultRequire": 1

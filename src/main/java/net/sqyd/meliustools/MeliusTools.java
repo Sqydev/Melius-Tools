@@ -11,7 +11,7 @@ public class MeliusTools implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModTools.RedisterModTools();
+		ModTools.registerModTools();
 		ModTools.registerToVanillaItemGroups();
 	}
 }
