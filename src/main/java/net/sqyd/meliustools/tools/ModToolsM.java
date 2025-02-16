@@ -28,6 +28,10 @@ public enum ModToolsM implements ToolMaterial {
             () -> Ingredient.ofItems(Blocks.MANGROVE_PLANKS)),
     Cherry(0, 59, 2.0F, 0.0F, 15,
             () -> Ingredient.ofItems(Blocks.CHERRY_PLANKS)),
+    Crimson(0, 59, 2.0F, 0.0F, 15,
+            () -> Ingredient.ofItems(Blocks.CRIMSON_PLANKS)),
+    Warped(0, 59, 2.0F, 0.0F, 15,
+            () -> Ingredient.ofItems(Blocks.WARPED_PLANKS)),
 
 
     //Stone
