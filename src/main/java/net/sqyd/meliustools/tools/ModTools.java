@@ -36,7 +36,7 @@ public class ModTools {
     public static final Item Warped_Stick = registerItems("warped_stick",
             new Item(new FabricItemSettings()));
 
-
+    //Heads
 
     //Wooden
 
