@@ -38,7 +38,131 @@ public class ModTools {
 
     //Heads
 
-    //Wooden
+
+    public static final Item Oak_Pickaxe_Head = registerItems("oak_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Oak_Axe_Head = registerItems("oak_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Oak_Shovel_Head = registerItems("oak_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Oak_Sword_Head = registerItems("oak_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Oak_Hoe_Head = registerItems("oak_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item DOak_Pickaxe_Head = registerItems("doak_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item DOak_Axe_Head = registerItems("doak_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item DOak_Shovel_Head = registerItems("doak_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item DOak_Sword_Head = registerItems("doak_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item DOak_Hoe_Head = registerItems("doak_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item Acacia_Pickaxe_Head = registerItems("acacia_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Acacia_Axe_Head = registerItems("acacia_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Acacia_Shovel_Head = registerItems("acacia_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Acacia_Sword_Head = registerItems("acacia_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Acacia_Hoe_Head = registerItems("acacia_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item Spruce_Pickaxe_Head = registerItems("spruce_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Spruce_Axe_Head = registerItems("spruce_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Spruce_Shovel_Head = registerItems("spruce_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Spruce_Sword_Head = registerItems("spruce_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Spruce_Hoe_Head = registerItems("spruce_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item Birch_Pickaxe_Head = registerItems("birch_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Birch_Axe_Head = registerItems("birch_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Birch_Shovel_Head = registerItems("birch_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Birch_Sword_Head = registerItems("birch_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Birch_Hoe_Head = registerItems("birch_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item Azalea_Pickaxe_Head = registerItems("azalea_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Azalea_Axe_Head = registerItems("azalea_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Azalea_Shovel_Head = registerItems("azalea_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Azalea_Sword_Head = registerItems("azalea_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Azalea_Hoe_Head = registerItems("azalea_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item Cherry_Pickaxe_Head = registerItems("cherry_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Cherry_Axe_Head = registerItems("cherry_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Cherry_Shovel_Head = registerItems("cherry_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Cherry_Sword_Head = registerItems("cherry_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Cherry_Hoe_Head = registerItems("cherry_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item Jungle_Pickaxe_Head = registerItems("jungle_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Jungle_Axe_Head = registerItems("jungle_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Jungle_Shovel_Head = registerItems("jungle_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Jungle_Sword_Head = registerItems("jungle_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Jungle_Hoe_Head = registerItems("jungle_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item Mangrove_Pickaxe_Head = registerItems("mangrove_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Mangrove_Axe_Head = registerItems("mangrove_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Mangrove_Shovel_Head = registerItems("mangrove_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Mangrove_Sword_Head = registerItems("mangrove_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Mangrove_Hoe_Head = registerItems("mangrove_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item Crimson_Pickaxe_Head = registerItems("crimson_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Crimson_Axe_Head = registerItems("crimson_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Crimson_Shovel_Head = registerItems("crimson_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Crimson_Sword_Head = registerItems("crimson_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Crimson_Hoe_Head = registerItems("crimson_hoe_head",
+            new Item(new FabricItemSettings()));
+
+    public static final Item Warped_Pickaxe_Head = registerItems("warped_pickaxe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Warped_Axe_Head = registerItems("warped_axe_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Warped_Shovel_Head = registerItems("warped_shovel_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Warped_Sword_Head = registerItems("warped_sword_head",
+            new Item(new FabricItemSettings()));
+    public static final Item Warped_Hoe_Head = registerItems("warped_hoe_head",
+            new Item(new FabricItemSettings()));
+    
+    //Tools
+
+        //Wooden
 
 
     public static final Item Oak_Pickaxe = registerItems("oak_pickaxe",
@@ -170,10 +294,6 @@ public class ModTools {
 
     private static Item registerItems(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MeliusTools.MOD_ID, name), item);
-    }
-
-    public static void registerModItems() {
-        MeliusTools.LOGGER.info("Regging " + MeliusTools.MOD_ID + "s Tools");
     }
 
     public static void registerToVanillaItemGroups() {
